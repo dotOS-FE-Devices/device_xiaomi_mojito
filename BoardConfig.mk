@@ -60,6 +60,7 @@ BUILD_BROKEN_DUP_RULES := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
@@ -184,3 +185,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 include vendor/xiaomi/mojito/BoardConfigVendor.mk
+
