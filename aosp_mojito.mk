@@ -25,6 +25,10 @@ PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+  
+BUILD_FINGERPRINT := google/coral/coral:11/RQ3A.210705.001/7380771:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=mojito
+    PRODUCT_NAME=mojito \
+    PRIVATE_BUILD_DESC="coral-user 11 RQ3A.210705.001 7380771 release-keys"
+    
